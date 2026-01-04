@@ -28,5 +28,3 @@ while True:
         print(f"Você perdeu! Você colocou {numeros_jogador} e computador {numero_computador}, o resultado {resultado} é ÍMPAR!")
         print(f"Você teve {vitorias} vitorias")
 
-
-
