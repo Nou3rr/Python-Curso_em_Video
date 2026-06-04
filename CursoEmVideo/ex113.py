@@ -7,10 +7,10 @@ def leiaint(x):
             n = int(input(x))
 
         except (ValueError, TypeError):
-            print("ERRO! Por favor, digite um número inteiro válido.")
+            print("\033[31mERRO! Por favor, digite um número inteiro válido.\033[m")
 
         except (KeyboardInterrupt):
-            print("ERRO! O usuário optou em não inserir um número. A variável receberá o valor 0.")
+            print("\033[31mERRO! O usuário optou em não inserir um número. A variável receberá o valor 0.\033[m")
             n = 0
             return n
 
